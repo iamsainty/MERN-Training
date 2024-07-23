@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <p class="para">Hi! Everyone</p>
+    </div>
+    <button onclick="handelremove()">Remove</button>
+    &nbsp; 
+    <button onclick="handelcolour()">Change colour</button>
+    <script>
+        // var a = 10;
+        // console.log(a);
+        // //To add two numbers
+        // add(1, 3);
+        // function add(a, b) {
+        //     console.log(a + b);
+        // }
+        // //To print name
+        // function printName() {
+        //     console.log("hi! janhvi");
+        // }
+        // printName();
+        // //use of Switch 
+
+        // //  var day=prompt("Enter day");
+        // // switch(day){
+        // //     case "1": console.log("Monday");
+        // //     case "2": console.log("Tuesday");
+        // //     case "3": console.log("Wednesday");
+        // //     case "4": console.log("Thursday");
+        // //     case "5": console.log("Friday");
+        // //     case "6": console.log("Saturday");
+        // //     case "7": console.log("Sunday");
+        // // }
+
+
+        // // var a = prompt("Enter your age:");
+        // function age(a) {
+        //     if (a < 20) {
+        //         console.log("Below 20 ");
+        //     }
+        //     else if (a > 20) {
+        //         console.log("Above 20");
+        //     }
+        //     else {
+        //         console.log("Equal to 20");
+        //     }
+        // }
+        // age(a);
+       function handelremove(){
+        var  a = document.querySelector(".para");
+        a.innerHTML='';
+       }
+       function handelcolour(){
+        var  a = document.querySelector(".container");
+        a.style.backgroundColor="blue";
+       }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    
+    height:30vw;
+    width:60vw;
+    
+    justify-content: left;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    
+}
