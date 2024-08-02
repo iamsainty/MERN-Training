@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 500px;
+            position: relative;
+        }
+        .child{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            position: absolute;
+        }
+        .child1{
+            top: 0;
+            left: 0;
+        }
+        .child2{
+            top:0;
+            right: 0;
+        }
+        .child3{
+            bottom: 0;
+            left: 0;
+        }
+        .child4{
+            bottom: 0;
+            right: 0;
+        }
+        @media (max-width: 700px){
+            .child{
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child child1"></div>
+        <div class="child child2"></div>
+        <div class="child child3"></div>
+        <div class="child child4"></div>
+    </div>
+</body>
+</html>
