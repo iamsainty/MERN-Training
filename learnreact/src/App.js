@@ -1,10 +1,10 @@
-import TodoList from "./components/TodoList";
+import CheckBox from "./components/CheckBox";
 
 function App() {
   return (
-    <>
-      <TodoList />
-    </>
+<>
+<CheckBox/>
+</>
   );
 }
 
