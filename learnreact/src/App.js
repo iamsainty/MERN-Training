@@ -1,10 +1,10 @@
-import CheckBox from "./components/CheckBox";
+import Effect from "./components/Effect";
 
 function App() {
   return (
-<>
-<CheckBox/>
-</>
+    <>
+      <Effect />
+    </>
   );
 }
 
