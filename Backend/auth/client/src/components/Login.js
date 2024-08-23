@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router';
 
 function Login() {
     const [user, setUser] = useState({
         email: '',
         password: ''
     });
+    const navigate = useNavigate();
 
     const [error, setError] = useState('');
 
@@ -24,8 +26,7 @@ function Login() {
             });
             const data = await response.json();
             if(data.userexist){
-                alert('User exist');
-                
+                navigate('/home');
             }
             else{
                 alert( 'User not exist');
